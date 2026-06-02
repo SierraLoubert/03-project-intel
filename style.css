@@ -189,4 +189,22 @@ body {
     .logo {
         width: 100px;
     }
-}/* Add your CSS here */
+
+    /* FOOTER */
+
+    .footer-section {
+        background: #002d64;
+        color: white;
+    }
+
+    .footer-link {
+        color: white;
+        text-decoration: none;
+        margin: 0 5px;
+    }
+
+    .footer-link:hover {
+        text-decoration: underline;
+    }
+}
+
