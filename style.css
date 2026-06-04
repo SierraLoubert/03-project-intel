@@ -85,6 +85,16 @@ body {
     box-shadow: 0 10px 24px rgba(0, 0, 0, 0.2);
 }
 
+/* THREE-COLUMN HOVER EFFECT */
+.timeline-hover-card {
+    transition: 0.3s ease;
+}
+
+.timeline-hover-card:hover {
+    transform: translateY(-10px) scale(1.03);
+    box-shadow: 0 10px 24px rgba(0, 0, 0, 0.2);
+}
+
 /* CARD */
 .timeline-card {
     flex: 0 0 320px;
@@ -233,4 +243,16 @@ body {
         width: 100px;
     }
 }
+
+/* THREE-COLUMN SECTION: light blue background matching site colors */
+#three-column {
+    background: linear-gradient(180deg, #eaf6ff 0%, #f8fcff 100%);
+    padding: 36px 24px;
+    border-radius: 12px;
+}
+
+#three-column .card {
+    background: white; /* keep cards white on the light-blue section */
+}
+
 
